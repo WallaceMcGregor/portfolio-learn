@@ -21,7 +21,14 @@
     </header>
     <main>
       <h2>Envíame un email</h2>
-      <form action=""></form>
+      <form action="" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" required />
+        <label for="correo">Dirección de email</label>
+        <input type="email" name="correo" id="correo" required />
+        <textarea name="mensaje" id="mensaje">Escribe tu mensaje</textarea>
+        <input type="submit" value="Enviar" />
+      </form>
       <h2>RRSS</h2>
       <ul>
         <li>
