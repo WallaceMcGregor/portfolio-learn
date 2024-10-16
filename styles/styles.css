@@ -36,12 +36,34 @@ nav li:hover {
   background-color: var(--main-color);
 }
 
+
+
+/* MAIN */
+
+main {
+  padding: 1rem;
+}
+
+
+
+/* FOOTER */
+
 footer {
   position: absolute;
   bottom: 0;
+  left: 45%;
+  border-radius: 2px;
+  font-size: 0.8rem;
   margin: 1rem;
-  font-size: 0.7rem;
+  padding: 0.2rem;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
 }
+
+
 
 a {
   text-decoration: none;
