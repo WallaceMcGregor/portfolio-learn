@@ -1,6 +1,6 @@
 :root {
-  --main-color: ;
-  --second-color: ;
+  --main-color: #0077ff;
+  --second-color: #ff5e00;
 }
 
 html {
@@ -15,15 +15,50 @@ body {
   background-color: black;
 }
 
+/* BARRA DE NAVEGACIÓN */
+
+nav {
+  margin-bottom: 1rem;
+  padding: 2rem 5rem;
+  text-align: end;
+}
+
+nav li {
+  display: inline-block;
+  background-color: var(--second-color);
+  padding: 1rem;
+  border-radius: 2px;
+  width: 5rem;
+  text-align: center;
+}
+
+nav li:hover {
+  background-color: var(--main-color);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+  font-size: 0.7rem;
+}
+
 a {
   text-decoration: none;
-  color: ;
+  text-transform: uppercase;
+  color: white;
+}
+
+i {
+  color: var(--main-color);
+  font-size: 3rem;
+  margin: 1rem;
 }
 
 .title {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 10rem;
 }
 
 .bak-image {
