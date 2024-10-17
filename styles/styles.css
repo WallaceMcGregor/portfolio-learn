@@ -1,5 +1,5 @@
 :root {
-  --main-color: #0077ff;
+  --main-color: #0060ce;
   --second-color: #ff5e00;
 }
 
@@ -34,6 +34,7 @@ nav li {
 
 nav li:hover {
   background-color: var(--main-color);
+  transition: background-color 0.5s;
 }
 
 
@@ -41,9 +42,36 @@ nav li:hover {
 /* MAIN */
 
 main {
-  padding: 1rem;
+  padding: 3rem;
 }
 
+.title {
+  display: inline;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: bold;
+  font-size: 8rem;
+  border-bottom: 2px solid white;
+}
+
+.cool-text {
+  margin-top: 1.2rem;
+  font-style: italic;
+}
+
+.tech-container {
+  margin: 4rem 0;
+}
+
+i {
+  color: var(--main-color);
+  font-size: 3rem;
+  margin: 1.5rem 3rem 0 0;
+}
+
+i:hover {
+  color: var(--second-color);
+  transition: color 0.5s;
+}
 
 
 /* FOOTER */
@@ -63,24 +91,12 @@ footer {
     2px -2px 0 #000;
 }
 
-
+/* GLOBAL */
 
 a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-}
-
-i {
-  color: var(--main-color);
-  font-size: 3rem;
-  margin: 1rem;
-}
-
-.title {
-  font-family: "Qwitcher Grypen", cursive;
-  font-weight: bold;
-  font-size: 10rem;
 }
 
 .bak-image {
