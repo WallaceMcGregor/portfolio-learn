@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Qwitcher+Grypen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="js/portfolio.js" async></script>
     <script
       src="https://kit.fontawesome.com/14f01d5813.js"
@@ -13,47 +19,49 @@
     <title>Contacto</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <div class="bak-image">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Portada</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2>Envíame un email</h2>
+        <form action="" method="get">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" required />
+          <label for="correo">Dirección de email</label>
+          <input type="email" name="correo" id="correo" required />
+          <textarea name="mensaje" id="mensaje">Escribe tu mensaje</textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+        <h2>RRSS</h2>
         <ul>
-          <li><a href="index.html">Portada</a></li>
+          <li>
+            <a href="" target="_blank"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="" target="_blank"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" target="_blank"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Envíame un email</h2>
-      <form action="" method="get">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" required />
-        <label for="correo">Dirección de email</label>
-        <input type="email" name="correo" id="correo" required />
-        <textarea name="mensaje" id="mensaje">Escribe tu mensaje</textarea>
-        <input type="submit" value="Enviar" />
-      </form>
-      <h2>RRSS</h2>
-      <ul>
-        <li>
-          <a href="" target="_blank"
-            ><i class="fa-brands fa-square-github"></i
-          ></a>
-        </li>
-        <li>
-          <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="" target="_blank"
-            ><i class="fa-brands fa-square-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a href="" target="_blank"
-            ><i class="fa-brands fa-square-instagram"></i
-          ></a>
-        </li>
-      </ul>
-    </main>
-    <footer>
-      <p>Diseñado y creado por WallaceMcGregor</p>
-    </footer>
+      </main>
+      <footer>
+        <p>Diseñado y creado por WallaceMcGregor</p>
+      </footer>
+    </div>
   </body>
 </html>
