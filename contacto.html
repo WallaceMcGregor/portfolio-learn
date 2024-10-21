@@ -27,37 +27,41 @@
           </ul>
         </nav>
       </header>
-      <main>
-        <h2>Envíame un email</h2>
-        <form action="" method="get">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" required />
-          <label for="correo">Dirección de email</label>
-          <input type="email" name="correo" id="correo" required />
-          <textarea name="mensaje" id="mensaje">Escribe tu mensaje</textarea>
-          <input type="submit" value="Enviar" />
-        </form>
-        <h2>RRSS</h2>
-        <ul>
-          <li>
-            <a href="" target="_blank"
-              ><i class="fa-brands fa-square-github"></i
-            ></a>
-          </li>
-          <li>
-            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="" target="_blank"
-              ><i class="fa-brands fa-square-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="" target="_blank"
-              ><i class="fa-brands fa-square-instagram"></i
-            ></a>
-          </li>
-        </ul>
+      <main class="contacto-container">
+        <div>
+          <h2 class="contacto-titulo">Envíame un email</h2>
+          <form class="contacto-form" action="" method="get">
+            <label class="label-nombre" for="nombre">Nombre:</label>
+            <input class="input-nombre" type="text" name="nombre" required />
+            <label class="label-correo" for="correo">Dirección de email:</label>
+            <input class="input-correo" type="email" name="correo" id="correo" required />
+            <textarea class="text-area" name="mensaje" id="mensaje" rows="15">Escribe tu mensaje</textarea>
+            <input class="enviar" type="submit" value="Enviar" />
+          </form>
+        </div>
+        <div>
+          <h2 class="contacto-titulo">RRSS</h2>
+          <ul class="contacto-rrss">
+            <li>
+              <a href="" target="_blank"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="" target="_blank"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" target="_blank"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
       </main>
       <footer>
         <p>Diseñado y creado por WallaceMcGregor</p>

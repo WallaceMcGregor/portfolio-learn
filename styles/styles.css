@@ -108,6 +108,93 @@ i:hover {
   text-align: right;
 }
 
+
+/* MAIN - CONTACTO */
+
+.contacto-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+.contacto-titulo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* MAIN - CONTACTO - FORM */
+
+.contacto-form {
+  display: grid;
+  gap: 2rem 1rem;
+  grid-template: 
+    'label-nombre input-nombre'
+    'label-correo input-correo'
+    'text-area text-area'
+    'enviar enviar';
+}
+
+.label-nombre {
+  grid-area: label-nombre;
+  justify-self: self-end;
+}
+
+.label-correo {
+  grid-area: label-correo;
+  justify-self: self-end;
+}
+
+.input-nombre {
+  grid-area: input-nombre;
+  justify-self: self-start;
+  width: 10rem;
+}
+
+.input-correo {
+  grid-area: input-correo;
+  justify-self: self-start;
+  width: 10rem;
+}
+
+.text-area {
+  grid-area: text-area;
+  width: 20rem;
+  justify-self: center;
+  font-family: "Cabin", sans-serif;
+}
+
+.enviar {
+  grid-area: enviar;
+  justify-self: center;
+  background-color: var(--main-color);
+  padding: 1rem;
+  border-radius: 2px;
+  width: 5rem;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: var(--second-color);
+  transition: background-color 0.5s;
+}
+
+
+/* MAIN - CONTACTO - RRSS */
+
+.contacto-rrss {
+  display: grid;
+  column-gap: 5rem;
+  grid-template-columns: 3rem 3rem;
+  justify-content: center;
+}
+
+
+
 /* FOOTER */
 
 footer {
