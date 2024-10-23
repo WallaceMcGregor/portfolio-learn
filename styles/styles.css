@@ -46,7 +46,7 @@ nav {
   text-align: end;
 }
 
-nav li {
+nav .nav-button {
   display: inline-block;
   background-color: var(--second-color);
   padding: 1rem;
@@ -55,7 +55,7 @@ nav li {
   text-align: center;
 }
 
-nav li:hover {
+nav .nav-button:hover {
   background-color: var(--main-color);
   transition: background-color 0.5s;
 }
@@ -82,13 +82,13 @@ nav li:hover {
   margin: 5rem 3rem;
 }
 
-i {
+.social-icon {
   color: var(--main-color);
   font-size: 5rem;
   margin: 2rem 5rem 2rem 0;
 }
 
-i:hover {
+.social-icon:hover {
   color: var(--second-color);
   transition: color 0.5s;
 }
