@@ -42,12 +42,16 @@
   
   nav {
     margin-bottom: 1rem;
-    padding: 2rem 5rem;
+    padding: 3rem;
     text-align: end;
   }
   
-  nav .nav-button {
+  nav li {
     display: inline-block;
+  
+  }
+  
+  nav .nav-button {
     background-color: var(--second-color);
     padding: 1rem;
     border-radius: 2px;
@@ -59,6 +63,29 @@
     background-color: var(--main-color);
     transition: background-color 0.5s;
   }
+  
+  .fa-sun {
+      opacity: 1;
+}
+
+.fa-moon {
+  position: relative;
+  right: 1.5rem;
+  opacity: 0;
+}
+
+.icon-pointer {
+  position: relative;
+  right: -1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+
+}
+
+.icon-pointer:hover {
+  cursor: pointer;
+}
+
   
   
   /* MAIN */
