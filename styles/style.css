@@ -270,3 +270,62 @@ body.dark-mode footer {
 body.dark-mode .title {
   border-bottom: 2px solid #ffffff;
 }
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 480px) {
+
+  .bak-image {
+    background-attachment: fixed;
+  }
+
+  nav {
+   padding: 0;
+   margin-bottom: 2em;
+  }
+
+  nav .nav-button {
+    font-size: 1em;
+  }
+
+  .title {
+    font-size: 2em;
+    margin: 1em 0.2em;
+  }
+
+  .cool-text {
+    margin: 0.2em;
+  }
+
+  .tech-container {
+    margin: 2em 0.2em;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .social-icon {
+    font-size: 3em;
+    margin: 0.5em;
+  }
+
+  .description-container {
+    width: 80%;
+    position: static;
+    background-color: rgba(255, 94, 0, 1);
+    margin: 0 auto;
+  }
+  
+  .description-text {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  footer {
+    left: 17%;
+  }
+}
