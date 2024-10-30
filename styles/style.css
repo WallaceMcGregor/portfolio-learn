@@ -181,6 +181,10 @@ nav .nav-button:hover {
   width: 10rem;
 }
 
+.label-nombre, .label-correo {
+  font-weight: bold;
+}
+
 .input-correo {
   grid-area: input-correo;
   justify-self: self-start;
@@ -271,6 +275,16 @@ body.dark-mode .title {
   border-bottom: 2px solid #ffffff;
 }
 
+body.dark-mode .contacto-rrss .social-icon {
+  color: var(--second-color);
+}
+
+body.dark-mode .contacto-rrss .social-icon:hover {
+  color: var(--main-color);
+  transition: color 0.5s;
+
+}
+
 
 
 /* RESPONSIVE DESIGN */
@@ -283,7 +297,7 @@ body.dark-mode .title {
 
   nav {
    padding: 0;
-   margin-bottom: 2em;
+   margin-bottom: 1em;
   }
 
   nav .nav-button {
@@ -325,7 +339,41 @@ body.dark-mode .title {
     color: #ffffff;
   }
 
+  .contacto-container {
+    grid-template-columns: 1fr;
+    padding: 0 3em;
+    gap: 1em;
+  }
+  
+  .text-area {
+    width: 20em;
+    box-shadow: 0px 0px 2px;
+  }
+
+  .input-correo, .input-nombre {
+    width: 9em;
+  }
+
+  .enviar {
+    margin-bottom: 2em;
+  }
+
+  .contacto-titulo {
+    margin: 0 1em 1em;
+  }
+
+  .contacto-rrss {
+    column-gap: 2em;
+    grid-template-columns: 3em 3em 3em 3em;
+    justify-content: center;
+  }
+
+  .contacto-rrss .social-icon {
+    margin: 0;
+  }
+
   footer {
     left: 17%;
+    bottom: 1em;
   }
 }
