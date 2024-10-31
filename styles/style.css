@@ -234,13 +234,14 @@ footer {
   left: 45%;
   border-radius: 2px;
   font-size: 0.8rem;
+  text-align: center;
   margin: 1rem;
   padding: 0.2rem;
   text-shadow:
-    2px 2px 0 #ffffff,
-    -2px 2px 0 #ffffff,
-    -2px -2px 0 #ffffff,
-    2px -2px 0 #ffffff;
+    1px 1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff;
 }
 
 
@@ -373,7 +374,6 @@ body.dark-mode .contacto-rrss .social-icon:hover {
   }
 
   footer {
-    left: 17%;
-    bottom: 1em;
+    display: none;
   }
 }
